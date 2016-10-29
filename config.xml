@@ -18,5 +18,6 @@
   </author>
 
     <icon src="img/icon.png" />
-	<plugin name="de.neofonie.cordova.plugin.nativeaudio" source="pgb" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+    <allow-navigation href="*" />
 </widget>
