@@ -18,6 +18,8 @@
   </author>
 
     <icon src="img/icon.png" />
-	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
-    <allow-navigation href="*" />
+	
+   <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+   <allow-navigation href="*" />
+
 </widget>
