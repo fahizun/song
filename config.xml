@@ -14,25 +14,14 @@
   </description>
 
   <author href="https://build.phonegap.com" email="support@phonegap.com">
-      Hardeep Shoker
+      Fahizun Jofri
   </author>
 
     <icon src="img/icon.png" />
 	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
     <allow-navigation href="*" />
 		
-	<plugin name="cordova-plugin-splashscreen" source="npm" />
-	
-	<splash platform="android" qualifier="port-ldpi" src="img/splash.png" />
-	<splash platform="android" qualifier="port-mdpi" src="img/splash.png" />
-	<splash platform="android" qualifier="port-hdpi" src="img/splash.png" />
-	<splash platform="android" qualifier="port-xhdpi" src="img/splash.png" />
-	 
-	<splash platform="android" qualifier="land-ldpi" src="img/splash.png" />
-	<splash platform="android" qualifier="land-mdpi" src="img/splash.png" />
-	<splash platform="android" qualifier="land-hdpi" src="img/splash.png" />
-	<splash platform="android" qualifier="land-xhdpi" src="img/splash.png" />
-	
+	<plugin name="cordova-plugin-splashscreen" source="npm" />	
 	<splash src="splash.png" />
 	<preference name="SplashScreenDelay" value="3000" />
 </widget>
