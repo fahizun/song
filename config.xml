@@ -22,7 +22,7 @@
     <allow-navigation href="*" />
 	
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
-	<splash src="splash.png" />
+	<gap:splash src="splash.png" />
 	<preference name="fullscreen" value="true" />
 	<preference name="orientation" value="potrait" />
 	<preference name="auto-hide-splash-screen" value="false" />
